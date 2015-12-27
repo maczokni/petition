@@ -10,13 +10,13 @@ shinyUI(
     ),
     
     conditionalPanel(condition="input.viewInput == 'Non-UK countries'", 
-    	titlePanel("Citizens of Non-UK countries signing the xenophobic UK petition"),
+    	titlePanel("Citizens of Non-UK countries signing the xenophobic petition"),
     	mainPanel(
     		plotOutput("coutriesPlot", height = 1000)
 		)
 	), 
 	conditionalPanel(condition="input.viewInput == 'UK Constituencies'", 
-    	titlePanel("Residents by UK Constituencies signing the xenophobic UK petition"),
+    	titlePanel("Residents by UK Constituencies signing the xenophobic petition"),
     	mainPanel(
     		plotOutput("constituenciesPlot", height = 4000) 
 		)
