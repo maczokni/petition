@@ -1,0 +1,34 @@
+"Con" = "#0087dc"
+"DUP" = "#D46A4C"
+"Green" = "#008066"
+"Ind" = "#DDDDDD"
+"Lab" = "#d50000"
+"LD" = "#FDBB30"
+"PC" = "#3F8428"
+"SDLP" = "#99FF66"
+"SF" = "#008800"
+"SNP" = "#FFF95D"
+"Spk" = "white"
+"UKIP" = "#EFE600"
+"UUP" = "#9999FF"
+
+
+"Alliance" = #F6CB2F
+"Con" = "#0087dc"
+"DUP" = "#D46A4C"
+"Green" = "#008066"
+"Ind" = "#DDDDDD"
+"Lab" = "#d50000"
+"LD" = "#FDBB30"
+"PBPA" = #9400d3
+"PC" = "#3F8428"
+"Respect" = #FF3300
+"SF" = "#008800"
+"SNP" = "#FFF95D"
+"TUV" = #0095B6
+"UKIP" = "#EFE600"
+"UUP" = "#9999FF"
+
+
+
+colours from: https://en.wikipedia.org/wiki/Wikipedia:Index_of_United_Kingdom_political_parties_meta_attributes
