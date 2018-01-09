@@ -10,7 +10,7 @@ output$coutriesPlot <- renderPlot({
     
 
 #get data
-data1 <- fromJSON("https://petition.parliament.uk/petitions/107516.json")
+data1 <- fromJSON("https://petition.parliament.uk/archived/petitions/107516.json")
 
 signByCountry <- as.data.frame(data1$data$attributes$signatures_by_country)
 
@@ -28,7 +28,7 @@ c + geom_bar(stat="identity") + coord_flip() +
    
   
 signAndVote <- reactive({  #get data
-data1 <- fromJSON("https://petition.parliament.uk/petitions/107516.json")
+data1 <- fromJSON("https://petition.parliament.uk/archived/petitions/107516.json")
 
 signByConst <- as.data.frame(data1$data$attributes$signatures_by_constituency)
 
